@@ -1,0 +1,250 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #e2e6ed;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: #1a0424;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    font-family: "League Spartan", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #14031c;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: "League Spartan", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #14031c;
+}
+
+.bigtext {
+    color: #331E6A;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+#hero-section {
+    display: flex;
+    max-width: 1060;
+    margin: 0 auto 48px auto;
+}
+
+#hero-text {
+    width: 50%;
+    padding: 32px 20px 32px 20px;
+}
+
+#hero-image-wrapper {
+    width: 50%;
+}
+
+#hero-image {
+    width: 100%;
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 150px
+}
+
+.smalltext {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: black;
+}
+
+#hi-and-name {
+    margin-top: 20px;
+}
+
+#contact-button {
+    width: 138px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: #2F2F2F;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+#pricing-section {
+    max-width: 1060px;
+    margin: 48px auto;
+}
+
+.overtitle {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #2858FF;
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+
+.section-heading {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.section-subtitle {
+    text-align: center;
+    margin: 8px auto 48px auto;
+    max-width: 700px;
+}
+
+#pricing-boxes {
+    display: flex;
+}
+
+.pricing-box {
+    width: 33.33%;
+}
+
+.pricing-card {
+    background-color: aliceblue;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 6px 2px 25px -9px #000000;
+    padding: 20px;
+}
+
+.service {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #2858FF;
+}
+
+.price {
+    font-family: Poppins;
+    font-size: 36px;
+    margin-top: 8px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #000000;
+}
+
+.price-per-hour {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #8A8A8A;
+
+}
+
+.service-description {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #8A8A8A;
+    margin-top: 8px;
+}
+
+.service-benefits {
+    padding: 0;
+    list-style-type: none;
+}
+
+.service-benefits li {
+    margin-bottom: 8px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #666666;
+}
+
+.service-contact-button {
+    width: 100%;
+    height: 44px;
+    border-radius: 4px;
+    border: 2px solid #2F2F2F;
+    background-color: #FFFFFF;
+    color: #2F2F2F;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.service-contact-button:hover {
+    background-color: #2F2F2F;
+    color: #FFFFFF;
+    cursor: pointer; 
+}
+
+.card {
+    background-color: rgb(240, 242, 243);
+}
+
+.card .service {
+    color: #000000;
+}
+
+.card li {
+    color: #000000;
+}
+
+.card .service-description {
+    color:#00000080;
+
+}
+
+.card .price-per-page {
+    color: #00000080;
+}
+
+.card .service-contact-button {
+    background-color: #2F2F2F;
+    color: #FFFFFF;
+}
+
+.card .service-contact-button:hover {
+    background-color: #2F2F2F;
+    color: #FFFFFF;
+}
+
+#footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    margin-top: 48px;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.checkmark {
+    width: 16px;
+    height: 16px;
+    margin-bottom: -2px;
+}
