@@ -116,10 +116,14 @@ h2 {
 
 #pricing-boxes {
     display: flex;
+    justify-content: space-around;
+    align-items: stretch;
 }
 
 .pricing-box {
     width: 33.33%;
+    flex: 1;
+    margin: 10px;
 }
 
 .pricing-card {
@@ -220,15 +224,7 @@ h2 {
     color: #00000080;
 }
 
-.card .service-contact-button {
-    background-color: #2F2F2F;
-    color: #FFFFFF;
-}
 
-.card .service-contact-button:hover {
-    background-color: #2F2F2F;
-    color: #FFFFFF;
-}
 
 #footer {
     width: 100%;
